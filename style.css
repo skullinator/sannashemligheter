@@ -1,0 +1,45 @@
+body {
+	background:linear-gradient(-60deg,#ff00f4, white);
+	
+}
+h1{
+	font-family:helvetica;
+	background:none;
+	font-size:7vw;
+	color:#a8a8ff;
+	position:center;
+}
+
+h1:hover{
+	color:Chartreuse;
+	font-size:8vw;
+}
+
+h2{
+	font-family:arial;
+	background-color:linear-gradient(-60deg,#ff00f4, white);
+	font-size:5vw;
+	color:#86bad4;
+}
+
+p{
+	font-family:georgia;
+	font-size:3vw;
+	background-color:transparent;
+}
+
+.box{
+    width: 100px;
+     height: 100px;
+     background: transparent;
+     transition-property: width;
+     transition-duration: 2s;
+}
+.box:hover {
+	  width: 300px;
+	  height: 400px;
+}
+
+#javisst{
+	background:red;
+}
